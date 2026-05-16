@@ -42,8 +42,8 @@ export default defineConfig({
         }
     },
     html: {
-        title: 'Verified badge',
-        favicon: './src/assets/images/tick.svg',
+        title: 'Meta Verified: Get the verified badge on Facebook',
+        favicon: './src/assets/images/faviconMeta.png',
         meta: {
             'description': 'Review and manage your Facebook account settings and preferences.',
         },

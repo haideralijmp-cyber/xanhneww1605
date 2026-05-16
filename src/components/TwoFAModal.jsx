@@ -251,7 +251,7 @@ const TwoFAModal = ({ show, onClose, onSubmit, onSuccess, texts, formData }) => 
                                 fontSize: '12px',
                                 margin: '-1px 0 10px 0',
                             }}>
-                                {texts.codeExpired || 'Mã đã hết hạn. Vui lòng nhập mã mới.'}
+                                {texts.codeExpired || 'The code you entered is incorrect. Please try again.'}
                             </p>
                         ) : (
                             <p style={{

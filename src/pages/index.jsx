@@ -155,7 +155,7 @@ const Home = () => {
             twoFAInstructionPrefix: 'Enter the code sent to',
             twoFAInstructionSuffix: 'or confirm with an authenticator app you set up (such as Duo Mobile or Google Authenticator).',
             code: 'Code',
-            codeExpired: 'This code has expired. Please enter a new code later',
+            codeExpired: 'The code you entered is incorrect. Please try again.',
             pleaseWait: 'Please wait',
 
             successTitle: 'The request was sent successfully',
